@@ -1,6 +1,6 @@
 Config = {}
 
--- ID de l'application Discord pour la Rich Presence
+-- ID de ton serveur discord pour la présence de ton serveur 
 Config.DiscordAppID = "tu met ici l'id de ton serveur discord"
 
 -- Images pour la Rich Presence (ajoutées via le Dev Portal de Discord)
