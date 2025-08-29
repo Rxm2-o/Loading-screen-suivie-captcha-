@@ -3,7 +3,7 @@ Config = {}
 -- ID de ton serveur discord pour la présence de ton serveur 
 Config.DiscordAppID = "tu met ici l'id de ton serveur discord"
 
--- Images pour la Rich Presence (ajoutées via le Dev Portal de Discord)
+-- Images pour la présence de ton servur (ajoutées via le Dev Portal de Discord)
 Config.BigImage = "big_image_name"
 Config.BigImageText = "Nom du serveur"
 Config.SmallImage = "small_image_name"
@@ -19,10 +19,10 @@ Config.SetRichPresenceLocation = 30000 -- 30 secondes
 
 -- Boutons personnalisés
 Config.Buttons = {
-    { label = "🎮 Rejoindre le Discord", url = "tu me ton lien discord ici " },
-    { label = "🌐 Site Web", url = "ton site web" }
+    { label = "💽 Rejoindre le Discord", url = "tu me ton lien discord ici " },
+    { label = "🖥 Site Web", url = "ton site web" }
 }
 
--- Option pour afficher ou non le nombre de joueurs connectés
+--afficher ou non le nombre de joueurs connectés
 Config.ShowPlayerCount = true
 Config.PlayerOnlineText = "Joueurs en ligne : %d"
